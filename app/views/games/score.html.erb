@@ -1,0 +1,7 @@
+<h1>Results</h1>
+<p><%= params[:letters] %></p>
+<p><%= @results[:message] %></p>
+<p>Your score: <%= @results[:score] %></p>
+<p>Time taken: <%= @results[:time] %></p>
+<p>Your word: <%= params[:word] %></p>
+<%= link_to "Play again", new_path %>
